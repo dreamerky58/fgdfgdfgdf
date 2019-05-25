@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YourServer.net</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <nav>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="http://fourm.YourServer.net">Forum</a></li>
+        </ul>
+      </nav>
+      <h1>YourServer.net</h1>
+      <p>Your server slogan.</p>
+      <br>
+      <br>
+      <!-- Replace GommeHD.net with your serverip -->
+      <a class="heaerbtn">Currently are <strong><span data-playercounter-ip="GommeHD.net">0</span></strong> online!</a>
+    </section>
+    <section id="news">
+      <h1>News</h1>
+      <hr>
+      <br>
+      <br>
+      <h3>Double coins weekend</h3>
+      <hr>
+      <br>
+      <p>This weekend you can get in all games the double amount of coins. <br>
+      Start now and join our server to earn the double coins. <br>Enjoy your weekend!</p>
+      <br>
+      <p><i class="far fa-calendar"></i> <em>15th February 2019</em></p>
+      <br>
+      <h3>Premium giveaway</h3>
+      <hr>
+      <br>
+      <p>We are giving away 3x premium rank on our server! <br> You can enter when you retweet our tweet on Twitter. <br>
+      The giveaway ends in one week. <br> Good luck!</p>
+      <br>
+      <p><i class="far fa-calendar"></i> <em>4th February 2019</em></p>
+      <br>
+      <h3>Server release</h3>
+      <hr>
+      <br>
+      <p>On this answome weekend our server will be going online. <br>You can find on our server lots of special and classic games. <br>
+      We hope that you visit us: <strong>YourServer.net</srong></p>
+      <br>
+      <p><i class="far fa-calendar"></i> <em>21th January 2019</em></p>
+    </section>
+    <section id="team">
+      <hr style="background-color: #333333;">
+      <h1>Our team</h1>
+      <hr>
+      <br>
+      <figure>
+        <img src="https://minotar.net/helm/MHF_Question/128" alt="">
+        <figcaption>
+          <h3>Your team member</h3>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://minotar.net/helm/MHF_Question/128" alt="">
+        <figcaption>
+          <h3>Your team member</h3>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://minotar.net/helm/MHF_Question/128" alt="">
+        <figcaption>
+          <h3>Your team member</h3>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://minotar.net/helm/MHF_Question/128" alt="">
+        <figcaption>
+          <h3>Your team member</h3>
+        </figcaption>
+      </figure>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1>We are searching YOU!</h1>
+      <hr>
+      <br>
+      <h3>Currently we search new team members. When you are interested to apply as Supporter, Builder or Developer click on the button below to wirte a application.</h3>
+      <br><br><br><br>
+      <a href="https://www.spigotmc.org/resources/60292" class="btn">Apply now!</a>
+    </section>
+    <script>
+$(document).ready(function(){
+$("a").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+      window.location.hash = hash;
+    });
+  }
+});
+});
+</script>
+    <footer>
+      &copy; 2019 - YourServer.net | developed by <a href="https://youtube.com/Tutorialwork">Tutorialwork</a>
+    </footer>
+  </body>
+</html>
